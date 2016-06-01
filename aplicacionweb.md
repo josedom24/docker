@@ -1,11 +1,11 @@
 ---
 layout: index
-prev: Primeros pasos con Docker >>
+prev: << Primeros pasos con Docker
 prev_url: /docker/primerospasos
 ---
 
 <p style="text-align: justify;"><a class="thumbnail" href="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/engine.png" rel="attachment wp-att-1601"><img class="wp-image-1601 alignright" src="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/engine.png" alt="engine" width="327" height="206" srcset="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/engine.png 540w, http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/engine-300x189.png 300w" sizes="(max-width: 327px) 100vw, 327px" /></a></p>
-<p style="text-align: justify;">Seguimos profundizando en el uso de contenedores con docker. En la <a href="http://www.josedomingo.org/pledin/2016/02/primeros-pasos-con-docker/">pasada entrada</a>, hicimos una introducción al uso de docker creando nuestros primeros contenedores, en esta entrada vamos a profundizar en la gestión de imágenes docker y en la creación de un contenedor que nos ofrezca un servicio, más concretamente que ejecute un servidor web y que nos ofrezcan una página web estática.</p>
+<p style="text-align: justify;">Seguimos profundizando en el uso de contenedores con docker. En la <a href="/docker/premerospasos">pasada entrada</a>, hicimos una introducción al uso de docker creando nuestros primeros contenedores, en esta entrada vamos a profundizar en la gestión de imágenes docker y en la creación de un contenedor que nos ofrezca un servicio, más concretamente que ejecute un servidor web y que nos ofrezcan una página web estática.</p>
 <h2>Trabajando con imágenes</h2>
 <p style="text-align: justify;">Vamos a descargar una imagen del sistema operativo GNU/Linux Debian del registro público <strong>docker hub</strong>. Normalmente el nombre de las imágenes tienen la forma <em>usuario/nombre:etiqueta</em>, si no indicamos la etiqueta será <strong><em>latest</em></strong>. Por ejemplo el nombre de una imagen puede ser <strong>nuagebec/ubuntu:15.04</strong></p>
 <pre>$ docker pull debian
