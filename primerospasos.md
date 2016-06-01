@@ -2,7 +2,7 @@
 layout: index
 ---
 
-<p style="text-align: justify;"><a class="thumbnail" href="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/docker2.png" rel="attachment wp-att-1578"><img class="size-full wp-image-1578 aligncenter" src="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/docker2.png" alt="docker2" width="795" height="419" srcset="http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/docker2.png 795w, http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/docker2-300x158.png 300w, http://www.josedomingo.org/pledin/wp-content/uploads/2016/02/docker2-768x405.png 768w" sizes="(max-width: 795px) 100vw, 795px" /></a>En una <a href="http://www.josedomingo.org/pledin/2015/12/introduccion-a-docker/">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
+En una <a href="http://www.josedomingo.org/pledin/2015/12/introduccion-a-docker/">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
 <ul>
 <li style="text-align: justify;"><strong>El cliente de Docker</strong> es la principal interfaz de usuario para docker, acepta los comandos del usuario y se comunica con el daemon de docker.</li>
 <li style="text-align: justify;"><strong>Imágenes de Docker (Docker Images)</strong>: Las imágenes de Docker son plantillas de solo lectura, es decir, una imagen puede contener el sistema de archivo de un sistema operativo como Debian, pero esto solo nos permitirá crear los contenedores basados en esta configuración. Si hacemos cambios en el contenedor ya lanzado, al detenerlo esto no se verá reflejado en la imagen.</li>
