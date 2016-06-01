@@ -21,14 +21,17 @@
           <h1>Docker</h1>
           <h2>Manual de docker</h2>
           <a href="/docker">Inicio</a>
+
+          {% if page.prev %} 
+          <a href="{{page.prev_url}}"{{page.prev}}</a>
+          {% endif%}
+          <<page.prev}}
         </header>
 
         <hr/>
 
         <section id="main_content">
-          {% if page.prev %} 
-          <a href="{{page.prev_url}}"{{page.prev}}</a>
-          {% endif%}
+          
           {{content}}
         </section>
 
