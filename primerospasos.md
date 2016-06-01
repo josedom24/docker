@@ -2,9 +2,11 @@
 layout: index
 prev: << Introducción a docker
 prev_url: /docker/introduccion
-next: Ejecutando una aplicación web en docker >>
+next: Ejecutando una aplicación web en Docker >>
 next_url: /docker/aplicacionweb
 ---
+
+# Primeros pasos con Docker
 
 En una <a href="/docker/introduccion">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
 <ul>
