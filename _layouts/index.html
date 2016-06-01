@@ -20,13 +20,13 @@
         <header>
           <h1>Docker</h1>
           <h2>Manual de docker</h2>
-          <nav>
+         
           
           {% if page.prev %} 
-          <li><a href="{{page.prev_url}}">{{page.prev}}</a></li>
+          <a href="{{page.prev_url}}">{{page.prev}}</a>
           {% endif%}
           {% if page.next %} 
-          <li><a href="{{page.next_url}}">{{page.next}}</a></li>
+          <a class="next" href="{{page.next_url}}">{{page.next}}</a>
           {% endif%}
         </nav>
           

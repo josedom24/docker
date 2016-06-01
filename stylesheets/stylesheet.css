@@ -373,7 +373,7 @@ footer a:hover {
 @media only screen and (max-width: 479px) { }
 
 /* José Domingo */
-#header nav li.nav a {
+#header a.next {
   float: left;
-  margin-left: 8px;
+  
   }
