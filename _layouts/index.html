@@ -26,6 +26,9 @@
         <hr/>
 
         <section id="main_content">
+          {% if {{prev}} != "" %}
+          <a href="{{prev_url}}"{{prev}}</a>
+            {% end if%}
           {{content}}
         </section>
 
