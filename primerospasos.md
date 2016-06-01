@@ -1,5 +1,9 @@
 ---
 layout: index
+prev: << Introducción a docker
+prev_url: /docker/introduccion
+next: xxx >>
+next_url: /docker/xxx
 ---
 
 En una <a href="/docker/introduccion">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
