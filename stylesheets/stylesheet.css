@@ -371,3 +371,9 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
+
+/* José Domingo */
+#header nav li.nav a {
+  float: left;
+  margin-left: 8px;
+  }
