@@ -2,7 +2,7 @@
 layout: index
 ---
 
-En una <a href="http://www.josedomingo.org/pledin/2015/12/introduccion-a-docker/">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
+En una <a href="/docker/introduccion">entrada anterior</a>, veíamos los fundamentos de docker, y repasábamos los principales componentes de la arquitectura de docker:</p>
 <ul>
 <li style="text-align: justify;"><strong>El cliente de Docker</strong> es la principal interfaz de usuario para docker, acepta los comandos del usuario y se comunica con el daemon de docker.</li>
 <li style="text-align: justify;"><strong>Imágenes de Docker (Docker Images)</strong>: Las imágenes de Docker son plantillas de solo lectura, es decir, una imagen puede contener el sistema de archivo de un sistema operativo como Debian, pero esto solo nos permitirá crear los contenedores basados en esta configuración. Si hacemos cambios en el contenedor ya lanzado, al detenerlo esto no se verá reflejado en la imagen.</li>
@@ -153,4 +153,3 @@ $ docker rm happy_euclid
 </pre>
 <h2>Conclusiones</h2>
 <p style="text-align: justify;">En esta primera entrada hemos hecho una introducción a la instalación de docker y hemos comenzado a crear contenedores. Realmente estos contenedores no nos sirven de mucho ya que ejecutan instrucciones muy básicas. En la próxima entrada vamos a trabajar com imágenes docker y vamos a profundizar en la creación de contenedores para ejecutar aplicaciones web.</p>
-<h6 style="text-align: justify;">La imagen de cabecera ha sido tomado de la URL: <a href="http://www.jsitech.com/generales/docker-fundamentos/">http://www.jsitech.com/generales/docker-fundamentos/</a></h6>
